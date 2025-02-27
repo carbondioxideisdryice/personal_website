@@ -180,10 +180,10 @@ a:hover {
   min-height: 100vh;
   box-sizing: border-box;
 }
-.glide_slides .glide-slide {
+.glide__slides .glide__slide {
   list-style: none;
 }
-.glide_slides .glide-slide .card-link {
+.glide__slides .glide__slide .card-link {
   width: 400px;
   height: 45vh;
   display: block;
@@ -195,17 +195,17 @@ a:hover {
   border: 2px solid transparent;
   transition: 0.2 ease;
 }
-.glide_slides .glide-slide .card-link:hover {
+.glide__slides .glide__slide .card-link:hover {
   box-shadow: 0 20px 20px rgba(64, 51, 51, 0.2);
 }
-.glide_slides .card-link .card-image {
+.glide__slides .card-link .card-image {
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
   border-radius: 10px;
 }
 
-.glide_slides .card-link .badge {
+.glide__slides .card-link .badge {
   color: rgb(236, 224, 223);
   margin: 16px 0 18px;
   padding: 8px 16px;
@@ -214,12 +214,12 @@ a:hover {
   width: fit-content;
   border-radius: 50px;
 }
-.glide_slides .card-link .card-title {
+.glide__slides .card-link .card-title {
   font-size: 1em;
   color: #674f4f;
 }
 
-.glide_slides .card-link .card-button {
+.glide__slides .card-link .card-button {
   height: 35px;
   width: 35px;
   border-radius: 50%;
@@ -232,7 +232,7 @@ a:hover {
   background-color: #f5e1e1;
   transition: 0.4 ease;
 }
-.glide_slides .card-link:hover .card-button {
+.glide__slides .card-link:hover .card-button {
   color: rgb(236, 224, 223);
   background: #674f4f;
 }
